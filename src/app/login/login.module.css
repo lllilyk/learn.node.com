@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+.loginContainer {
+    max-width: 1440px;
+    height: 976px;
+    background-color: #FFFFFF;
+}
+
+.pageTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #3d3d3d;
+    text-align: center;
+    position: fixed;
+    top: 124px;
+    width: 1440px;
+    height: 36px;
+}
+
+.loginForm {
+    width: 946px;
+    margin-left: 494px;
+}
+
+.formEmailLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    position: fixed;
+    top:212px;
+    color:#3d3d3d;
+}    
+
+.inputEmailField {
+    width: 452px;
+    height: 64px;
+    position: absolute;
+    top: 248px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    color: #909090;
+}
+
+.inputEmailField::placeholder {
+    width: 104px;
+    height: 36px;
+    position: absolute;
+    top: 252px;
+    left: 537px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #909090;
+}
+
+.formPasswordLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    position: fixed;
+    top: 318px;
+    color:#3d3d3d;
+}    
+
+.inputPasswordField {
+    width: 452px;
+    height: 64px;
+    position: fixed;
+    top: 354px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    color: #909090;
+}
+
+.inputPasswordField::placeholder {
+    width: 136px;
+    height: 36px;
+    position: fixed;
+    top: 368px;
+    left: 535px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #909090;
+}
+
+.continueButton {
+    width: 452px;
+    height: 64px;
+    position: fixed;
+    top: 465px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3d3d3d;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+
+.buttonText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.forgotPassword {
+    width: 1440px;
+    height: 36px;
+    position: fixed;
+    top: 550px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    color: #3d3d3d;
+
+}
