@@ -1,0 +1,58 @@
+.loginContainer {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+} 
+
+.pageTitle {
+    margin-top: 124px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.loginForm {
+    margin-top: 52px;
+}
+
+.formEmailLabel, 
+.formPasswordLabel {
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.inputEmailField,
+.inputPasswordField,
+.continueButton {
+    width: 452px;
+    height: 64px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.inputEmailField::placeholder,
+.inputPasswordField::placeholder {
+    text-indent: 43px;
+}
+
+.continueButton {
+    margin-top: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.forgotPassword {
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3d3d3d;
+}
