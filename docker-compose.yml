@@ -1,0 +1,21 @@
+version: '3.1'
+services:
+  db:
+    image: postgres
+    container_name: lily-postgres
+    restart: always
+    env_file:
+      - ./.env
+    environment:
+      POSTGRES_PASSWORD: example
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    networks:
+      - my-network
+    ports:
+      - "5432:5432"
+
+networks:
+  my-network:
+    driver: bridge
