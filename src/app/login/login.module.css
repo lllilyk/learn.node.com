@@ -34,17 +34,14 @@
     height: 64px;
     border-radius: 15px;
     background-color: #f3f3f3;
+    padding-left: 41px;
     font-size: 14px;
     font-weight: 400;
 }
 
-.inputEmailField::placeholder,
-.inputPasswordField::placeholder {
-    text-indent: 43px;
-}
-
 .continueButton {
     margin-top: 47px;
+    padding-left: 0px;
     font-size: 16px;
     font-weight: 700;
     color: #3d3d3d;
